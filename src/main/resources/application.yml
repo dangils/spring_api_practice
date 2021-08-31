@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@hangil0805_high?TNS_ADMIN=C:/Gookbi/Spring/resource/Wallet_hangil
+    username: admin
+    password: 02260You123!@

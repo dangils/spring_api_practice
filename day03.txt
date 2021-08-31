@@ -1,0 +1,37 @@
+ModelAndView
+- Web MVC Framework에서 Model과 View 둘 다 저장할 수 있음
+- Handler가 return한 model과 view를 나타내며, dispatcherServlet에 의해 분석됨
+- view는 viewResolver 객체에 의해 명시된 String view name을 가져와 사용
+- ModelAndView는 model과 같이 interface가 아니라 class로 구현, 내부에서 객체를 생성하여 사용
+
+✔ spring boot 에서 제공하는 템플릿 엔진
+- 템플릿 엔진 : 지정된 템플릿 양식과 데이터가 합쳐져 html 문서를 출력하는 소프트웨어
+- 서버 템플릿 엔진 : jsp -> freemaker, thymeleaf (서버에서 동작함)
+- 클라이언트 템플릿 엔진 : 리엑트, 뷰
+
+https://www.thymeleaf.org/
+
+템플릿 엔진의 특징
+- jsp, velocity : 스프링 부트에서는 권장하지 않음
+- freemarker : 템플릿 엔진으로는 많은 기능을 지원
+- thymeleaf : 스프링에서 적극적으로 지원하고 있으나 문법이 쉽지 않음.
+하지만 react, vue를 사용해본 경험이 있다면 thymeleaf를 쓰기 권장 및 추천
+
+
+
+과제
+
+1. 홈으로 버튼 추가
+2. 메뉴 아이콘 변경
+https://fonts.google.com/icons
+3. 관리자관리, 카테고리관리, 아이템관리, 구매정보관리, 업체관리
+<i class="material-icons">home</i>
+
+
+
+
+
+
+
+
+
